@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Confirmation</title>
+    <link rel="stylesheet" href="Confirmation.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="getLE();displayLogout()">
+    <header>
+        <p style="font-family:Montserrat ; font-size:large; color: aqua;"> Filmak</p>
+        <nav>
+            <ul class="nav_links">
+                <li> <a href="">Home </a> </li>
+                <li id="signup"> <a href="forms/login.html">Sign up </a> </li>
+                <li> <a href="seats/display.html">displayed films</a> </li>
+                <li> <a href="about.html">about us </a> </li>
+            </ul>
+        </nav>
+        <a class="contact" id="logout" href=""> <button onclick="logout()">log out</button> </a>
+    </header>
+
+
+    <div>
+        <p class="h">Total Price : </p>
+        <p  class="h" id="money" >0</p>
+        <p class="h" >EGP</p>
+        <button id="k" onclick="transfere()" >Confirm</button>
+    </div>
+
+
+<script src="script.js"></script>
+</body>

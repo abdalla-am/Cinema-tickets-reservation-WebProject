@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>filmak</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="home.css">
+    <style>
+        .img{
+            width: 30%;
+        }
+    </style>
+ 
+</head>
+
+<body onload="displayLogout()">
+
+    <header>
+        <p style="font-family:Montserrat ; font-size:large; color: aqua;"> Filma</p>
+        <!-- <img  class="logo" src="bck.jpg" width="100px" height="50px" alt="logo"> -->
+        <nav>
+            <ul class="nav_links">
+                <li> <a href="home.html">Home </a> </li>
+                <li id="signup"> <a href="forms/login.html">Sign up </a> </li>
+                <li> <a href="seats/display.html">displayed films</a> </li>
+                <li> <a href="about_us_page/about.html">about us </a> </li>
+            </ul>
+        </nav>
+        <a class="contact" id="logout" href=""> <button onclick="logout()">log out</button> </a>
+    </header>
+    <aside id="sidebar">
+        <br><br><br><br><br>
+        <a  href="home.html"> Home </a> <br> <br> <br>
+        <a  href="forms/login.html">Sign Up </a> <br> <br> <br>
+        <a  href="seats/display.html">Displayed Films</a> <br> <br> <br>
+        <a  href="about_us_page/about.html"> about us</a> <br> <br> <br>
+</aside>
+    <section>
+        <p></p>
+        <br>
+        <br>
+        <p
+            style="color: white; filter: brightness(100%); background-color: rgba(0, 0,0, 0.2);font-size: 28px; text-align: center; font-family: montserrat;">
+            <strong>Trailer</strong></p>
+        <div class="slide_show_container" style="margin-top:10px ; display: flex;flex-direction: column; align-items: center; background-color: rgba(0, 0,0, 0);">
+            <div id="title" style="font-size: 40px;color: white;  display:none ;" > test</div>
+             <div id="trailer" style="width: 50vw; height: 50vh; background-color: rgba(0, 0,0, 1);" >
+                <iframe width="100%" height="100%" src="" id="film"
+                    title="" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+             </div>
+        </div>
+        <fieldset
+            style=" margin-left: 370px; width:50%; display: flex; justify-content:space-between;  border:10px rgb(255, 255, 255) solid;  background-color: rgba(237, 240, 241, 0.7); ">
+            <legend style="color:rgba(255, 255, 255,1); font-size: 50px; font-family:Montserrat ;"><strong>DISPLAYED NOW</strong></legend>
+            <a  onclick="plusSlides(-1)" style="margin-top: 100px; cursor: pointer;">&#10094;</a>
+            
+            <img  src="images/P_HO00007665.jpg" id="1"alt="https://www.youtube.com/embed/giXco2jaZ_4" name=""  class="img" onclick="display(1)">
+            <img src="images/P_HO00008989.jpg" id="2" alt="https://www.youtube.com/embed/fb5ELWi-ekk"  class="img" onclick="display(2)">
+            <img src="images/P_HO00009079.jpg"  id="3" alt="https://www.youtube.com/embed/nPUyNVW-DEQ"class="img"  onclick="display(3)">
+            <img src="images/P_HO00008983.jpg"  id="4"alt="https://www.youtube.com/embed/HhIl_XJ-OGA"class="img" onclick="display(4)">
+            
+            <img src="images/P_HO00009117.jpg"   id="5"alt="https://www.youtube.com/embed/oQMc7Sq36mI" class="img" onclick="display(5)">
+            <img src="images/P_HO00009189.jpg" alt="https://www.youtube.com/embed/KgyMVknHz-4"  id="6"  class="img" onclick="display(6)" >
+            <img src="images/P_HO00009279.jpg" id="7" alt="https://www.youtube.com/embed/aa5MXOMN1lM"class="img" onclick="display(7)">
+            <img src="images/P_HO00009281.jpg" id="8" alt ="https://www.youtube.com/embed/YIixb42aJPg"class="img" onclick="display(8)">
+            <img src="images/P_HO00009288.jpg" id="9"alt="https://www.youtube.com/embed/a_wtuNPA-is"class="img" onclick="display(9)">
+            <img src="images/P_HO00009140.jpg"   id ="10"alt="https://www.youtube.com/embed/A_hkjvjx2ek"class="img" onclick="display(10)">
+            <img src="images/P_HO00009195.jpg"  id="11" alt="https://www.youtube.com/embed/wb57WhkW3as"class="img" onclick="display(11)">
+            
+            <a style="margin-top:100px; cursor: pointer;" onclick="plusSlides(1)">&#10095;</a>
+        </fieldset>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col" >
+                <p style="font-size:50px; color: aqua;">Filma</p>     
+            </div>
+            
+            <div class="col" >
+                <h3>rate us</p>
+                    <div class="container">
+                        <div id="post">
+                          <div class="text">Thanks for rating us!</div>
+                          <div class="edit">EDIT</div>
+                        </div>
+                        <div id="star-widget">
+                          <input type="radio" name="rate" id="rate-5">
+                          <label for="rate-5" class="fas fa-star"></label>
+                          <input type="radio" name="rate" id="rate-4">
+                          <label for="rate-4" class="fas fa-star"></label>
+                          <input type="radio" name="rate" id="rate-3">
+                          <label for="rate-3" class="fas fa-star"></label>
+                          <input type="radio" name="rate" id="rate-2">
+                          <label for="rate-2" class="fas fa-star"></label>
+                          <input type="radio" name="rate" id="rate-1">
+                          <label for="rate-1" class="fas fa-star"></label>
+                          <form action="#">
+                            <header></header>
+                            <div class="textarea">
+                              <textarea cols="30" placeholder="Describe your experience.."></textarea>
+                            </div>
+                            <div class="btn">
+                              <button type="submit" onclick="rate()">Post</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                   
+                  
+            </div>
+
+
+            <div class="col">
+                <h3>creators:</h3>
+                    <p style=" color: aqua;">Khelo</p> 
+                    <p style=" color: aqua;">Miggz</p> 
+                    <p style=" color: aqua;">Moktar</p> 
+                    <p style=" color: aqua;">Abdalla</p> 
+                    <p style=" color: aqua;">Mohsen</p> 
+                    <p style=" color: aqua;">Sara</p> 
+                    <p style=" color: aqua;">Ali</p> 
+            </div>  
+            <div class="col" >
+                <h3>contact us:</h3>
+                  <a href="https://www.facebook.com/"  style=" color: aqua; font-size: 20px;" target="_blank" ><img src="images/facebook-logo.png" alt="logo" width="20px" height="20px"></a>        
+                  <a href="https://www.instagram.com/" style=" color: aqua; font-size: 20px;" target="_blank"><img src="images/instagram-logo.png" alt="logo" width="20px" height="20px"></a>  
+                  <a href="https://www.twitter.com/" style=" color: aqua; font-size: 20px;" target="_blank"><img src="images/twitter-logo.png" alt="logo" width="20px" height="20px"></a> 
+                  <a href="https://www.telegram.com/" style=" color: aqua; font-size: 20px;" target="_blank"><img src="images/telegram-logo.png" alt="logo" width="20px" height="20px"></a>      
+                  <a href="https://www.linkedin.com/" style=" color: aqua; font-size: 20px;" target="_blank"><img src="images/linkedin-logo.png" alt="logo" width="20px" height="20px"></a>       
+                   
+
+            </div>
+        </div>
+    </footer>
+</div>
+    <script src="home.js"></script>
+</body>
+
+</html>

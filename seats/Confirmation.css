@@ -1,0 +1,100 @@
+header{
+    background-color: #24252a;
+    /* background:linear-gradient(to right, #040404, #000000, #656565); */
+    /* background:linear-gradient(120deg, #122B40, #446CB3); */
+    display:flex ;
+    justify-content:space-between;
+    align-items:center ;
+    padding: 5px 5%;
+}
+
+body {
+    box-sizing: border-box;
+    margin:0%;
+    padding: 0%;
+    background-image: url("../images/WhatsApp\ Image\ 2022-08-05\ at\ 3.13.14\ PM.jpeg");
+    background-size: 200vh;
+    background-attachment: fixed;
+    min-height: 200vh;                    /* to stick the footer down */
+    justify-content: center;
+    align-items: center;
+}
+
+li ,a, button,#title {
+    font-family:"Montserrat" ,sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    color:rgb(237, 240, 241);
+    text-decoration: none;
+    
+}
+
+p{
+    cursor:pointer;
+}
+
+.logo {
+    cursor:pointer;
+}
+
+.nav_links{
+    list-style: none;
+    display: flex;
+}
+
+.nav_links li {
+    display:inline-block ;
+    padding: 5px 20px ;
+    
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color:#0088a9;
+}
+
+button{
+    padding: 7px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+div{
+    margin: 60px auto;
+
+    background-color: #24252a;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(237, 240, 241);
+    border-radius: 10px;
+    color: rgb(237, 240, 241);
+    font-size:35px;
+}
+
+.h{
+    position: relative;
+    left: 50px;
+    color: rgb(237, 240, 241);
+    font-size: 28px;
+
+}
+
+#k{
+    position: relative;
+    top:80px;
+    right: 120px;
+}

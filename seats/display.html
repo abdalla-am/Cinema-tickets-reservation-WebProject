@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>displayed movies</title>
+    <link rel="stylesheet" href="display.css">
+   
+</head>
+
+<body onload="createMovie();displayLogout();moviebtn()">
+    <header>
+        <p style="font-family:Montserrat ; font-size:large; color: aqua;"> Filma</p>
+        <!-- <img  class="logo" src="bck.jpg" width="100px" height="50px" alt="logo"> -->
+        <nav>
+            <ul class="nav_links">
+                <li> <a href="../home.html">Home </a> </li>
+                <li id="signup"> <a href="../forms/login.html">Sign up </a> </li>
+                <li> <a href="">displayed films</a> </li>
+                <li> <a href="about.html">about us </a> </li>
+            </ul>
+        </nav>
+        <a class="contact" id="logout" href="" onclick="logout()"> <button>logout</button> </a>
+    </header>
+    <div id="title">
+        displayed movies
+    </div>
+ <div id="body" >
+    
+       <a class="movie-link" href="seats.html" onclick="addname('top gun')" >
+           <div class="movie-div" id="1">
+               <img class="movie-img" src="../images/P_HO00007665.jpg" alt="top gun">
+               <span class="movie-title">Top gun</span>
+           </div>
+       </a>
+       <a class="movie-link" href="seats.html" onclick="addname('Minions')">
+           <div class="movie-div" id="2">
+               <img class="movie-img" src="../images/P_HO00008983.jpg" alt="Minions">
+               <span class="movie-title">Minions</span>
+           </div>
+       </a>
+       <a class="movie-link" href="seats.html" onclick="addname('Jurassic world')">
+           <div class="movie-div" id="3">
+               <img class="movie-img" src="../images/P_HO00008989.jpg" alt="jurassic world">
+               <span class="movie-title">Jurassic world</span>
+           </div>
+       </a>
+       <a class="movie-link" href="seats.html" onclick="addname('3amuhum-عمهم')">
+           <div class="movie-div" id="4">
+               <img class="movie-img" src="../images/P_HO00009079.jpg" alt="3amuhum">
+               <span class="movie-title">3amuhum-عمهم</span>
+           </div>
+       </a>
+       <a class="movie-link" href="seats.html" onclick="addname('Beast')">
+           <div class="movie-div" id="5">
+               <img class="movie-img" src="../images/P_HO00009117.jpg" alt="beast">
+               <span class="movie-title">Beast</span>
+           </div>
+       </a>
+       <a class="movie-link" href="seats.html" onclick="addname('Paws fury')">
+           <div class="movie-div" id="5">
+               <img class="movie-img" src="../images/P_HO00009140.jpg" alt="Paws fury">
+               <span class="movie-title">Paws fury</span>
+           </div>
+       </a>
+       <a class="movie-link" href="seats.html" onclick="addname('kera wel gen- كيرة و الجن')">
+           <div class="movie-div" id="6">
+               <img class="movie-img" src="../images/P_HO00009189.jpg" alt="kera w el gen">
+               <span class="movie-title">Kera wel gen-كيرة و الجن</span>
+           </div>
+       </a>
+       <a class="movie-link" href="seats.html" onclick="addname('bahebak-بحبك')">
+           <div class="movie-div" id="7">
+               <img class="movie-img" src="../images/P_HO00009195.jpg" alt="bahebak">
+               <span class="movie-title">bahebak-بحبك</span>
+           </div>
+       </a>
+       <a class="movie-link" href="seats.html" onclick="addname('Fall')">
+           <div class="movie-div" id="8">
+               <img class="movie-img" src="../images/P_HO00009279.jpg" alt="fall">
+               <span class="movie-title">Fall</span>
+           </div>
+       </a>
+      
+ </div>
+ <a href="admin.html" id="movie-btn" style="padding: 20px; display: none; "><button >Add new movie </button></a>
+<script src="script.js"></script>
+</body>
+
+</html>

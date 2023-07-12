@@ -1,0 +1,26 @@
+<html>
+    <head> 
+        <title>Admin page</title>
+        <link rel="stylesheet" href="admin.css">
+        
+    </head>
+    <body>
+        
+        <h1 style="color: aliceblue;">Add Movie</h1>
+        <form action="display.html">
+            <label for="movie-name"> Movie name </label><input type="text" name="movie-name" onchange="itle()" id="movietitle"><br>
+            <label for="image" style="padding-left: 80px;"> Movie image</label>
+            <input type="file" accept=".png" id="mov" onchange="setimg()" ><br>
+            <div class="movie-div">
+                <img class="movie-img" src="" alt="" id="imag1">
+                <span class="movie-title" id="titlespan"></span>
+            </div>
+            <br>
+            <button type="submit" onclick="transMovieInfo()" id="mvbtn" >add movie</button>
+            
+        </form>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    background-image: url(../images/WhatsApp\ Image\ 2022-08-05\ at\ 3.13.14\ PM.jpeg);
+    text-align: center;
+    
+}
+label{
+    color: white;
+    font-size: 24px;
+
+}
+.movie-div{
+    border: 1px black solid;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 20%;
+    height: 60%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    text-align: center;
+}
+.movie-img{
+    width: 100%;
+}
+.movie-title{
+    font-size: 24px;
+    color: white;
+    
+}
+button{
+    padding: 7px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}

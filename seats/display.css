@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Montserrat" ,sans-serif ;
+}
+
+li ,a, button,#title {
+    font-family:"Montserrat" ,sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    color:rgb(237, 240, 241);
+    text-decoration: none;
+    
+}
+
+header{
+    background-color: #24252a;
+    /* background:linear-gradient(to right, #040404, #000000, #656565); */
+    /* background:linear-gradient(120deg, #122B40, #446CB3); */
+    display:flex ;
+    justify-content:space-between;
+    align-items:center ;
+    padding: 5px 5%;
+}
+
+p{
+    cursor:pointer;
+}
+
+.logo {
+    cursor:pointer;
+}
+
+.nav_links{
+    list-style: none;
+    display: flex;
+}
+
+.nav_links li {
+    display:inline-block ;
+    padding: 5px 20px ;
+    
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color:#0088a9;
+}
+
+button{
+    padding: 7px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+
+
+body{
+    background-image: url(../images/WhatsApp\ Image\ 2022-08-05\ at\ 3.13.14\ PM.jpeg);
+    text-align: center;
+}
+#title{
+    font-size: 26px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+#body{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    overflow: auto;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+button{
+    padding: 7px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.movie-link{
+    cursor: pointer;
+   float: left;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.2);
+}
+.movie-link:hover{
+   border: 1px solid black;
+   border-radius: 4px;
+   background-color: rgba(0,0,0,0.4);
+}
+.movie-div{
+    box-sizing: border-box;
+    padding: 10px 30px;
+    text-align: center;
+}
+.movie-img{
+    width: 100%;
+}
+.movie-title{
+    font-size: 24px;
+}
+.movie-title:hover{
+    color:#0088a9;
+}
