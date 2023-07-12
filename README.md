@@ -1,3 +1,5 @@
+<p><a href=""><img align="right" src="https://github.com/abdalla-am/Cinema-tickets-reservation-WebProject/blob/main/readme_img/popcorn.gif" width="100" /></a></p>
+
 # Cinema tickets reservation WebProject
 
 ![](https://github.com/abdalla-am/Cinema-tickets-reservation-WebProject/blob/main/readme_img/cinema.gif)
