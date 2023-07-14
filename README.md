@@ -12,6 +12,8 @@
 
 ### This is a code of cinema ticket reservation system using HTML, CSS, and JavaScript. On this web page, there are 4 main menus and so many sub-menus . From this page, you can book cinema tickets, Book your place , Find displayed films and others .
 
+<br>
+
 ![picture alt](https://raw.githubusercontent.com/abdalla-am/Cinema-tickets-reservation-WebProject/main/readme_img/Screen%201.png?token=GHSAT0AAAAAACECHYEXXPVZGU5U3QQYEPSYZFQSQUA "Screen 1")
 ![picture alt](https://raw.githubusercontent.com/abdalla-am/Cinema-tickets-reservation-WebProject/main/readme_img/Screen%202.png?token=GHSAT0AAAAAACECHYEW5XVG2QGT6OJQDCN2ZFQSREQ "Screen 2")
 ![picture alt](https://raw.githubusercontent.com/abdalla-am/Cinema-tickets-reservation-WebProject/main/readme_img/Screen%203.png?token=GHSAT0AAAAAACECHYEWDVIAFFEHZCUDBHMSZFQSTLA "Screen 3")
