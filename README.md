@@ -14,11 +14,11 @@
 
 <br>
 
-![picture alt](https://raw.githubusercontent.com/abdalla-am/Cinema-tickets-reservation-WebProject/main/readme_img/Screen%201.png?token=GHSAT0AAAAAACECHYEWHJFQ5IPFAORVIFCSZFQSX5Q "Screen 1")
+![picture alt](https://github.com/abdalla-am/Cinema-tickets-reservation-WebProject/blob/main/readme_img/Screen%201.png "Screen 1")
 
-![picture alt](https://raw.githubusercontent.com/abdalla-am/Cinema-tickets-reservation-WebProject/main/readme_img/Screen%202.png?token=GHSAT0AAAAAACECHYEW7TWZTOHKAM2NQSDWZFQSX6Q "Screen 2")
-![picture alt](https://raw.githubusercontent.com/abdalla-am/Cinema-tickets-reservation-WebProject/main/readme_img/Screen%203.png?token=GHSAT0AAAAAACECHYEWDVIAFFEHZCUDBHMSZFQSTLA "Screen 3")
+![picture alt](https://github.com/abdalla-am/Cinema-tickets-reservation-WebProject/blob/main/readme_img/Screen%202.png "Screen 2")
+![picture alt](https://github.com/abdalla-am/Cinema-tickets-reservation-WebProject/blob/main/readme_img/Screen%203.png "Screen 3")
 
 <br>
 
-<p><a href=""><img align="Middle" src="https://raw.githubusercontent.com/abdalla-am/Cinema-tickets-reservation-WebProject/main/readme_img/Screen%204.png?token=GHSAT0AAAAAACECHYEWIFMUGBI2Q3L7UT7SZFQSZ3A"/></a></p>
+<p><a href=""><img align ="middle" src="https://github.com/abdalla-am/Cinema-tickets-reservation-WebProject/blob/main/readme_img/Screen%204.png"/></a></p>
